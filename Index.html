@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv="X-UA-Compatible" content='IE=edge'>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>WISE EAGLE LISTENS</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/front-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class="bg">
+            <img src="https://images.all-free-download.com/images/graphiclarge/eagle_logotype_powerful_flying_sketch_symmetric_handdrawn_design_6849549.jpg" alt="eagle">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg" alt="black">
+
+        </div>
+        <div class="player">
+            <div class="wrapper">
+                <div class="details">
+                    <div class="now-playing"> THE EALGE </div>
+                    <div class="tract-art"></div>
+                    <div class="track-name">EAGLE TRACK</div>
+                    <div class="track-artist">WISE EAGLE</div>
+                <div class="slider_container">
+                    <div class="current-time">00:00</div>
+                    <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekto()">
+                    <div class="total-duration">00:30</div>
+                </div>
+                <div class="button">
+                    <div class="random-track" onclick="randomtrack()">
+                    </div>
+                    <i class="fas fa-random fa-1x" title="random"></i>
+                </div>
+                <div class="prev-track" onclick="prevTrack()">
+                <i class="fa fa-step-backward fa-2x"></i>
+            </div>
+            
+                </div>
+            </div>  
+        </div>
+    </body>
+</html>
